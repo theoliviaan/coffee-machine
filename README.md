@@ -1,7 +1,7 @@
 # coffee-machine
 Coffee Machine
 
-
+```
 from menu import MENU, resources
 should_continue = True
 
@@ -72,3 +72,5 @@ while should_continue:
 
             if process_change(payment, drink["cost"]):
                 make_coffee(user_choice, drink["ingredients"])
+                
+```
